@@ -1,7 +1,7 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks. 
 
 def highest_student_gpa
-  SELECT COUNT(*) FROM students WHERE net_worth > 1000000;
+  SELECT COUNT(*) FROM students WHERE gpa > 1000000;
 end
 
 def lowest_student_gpa
